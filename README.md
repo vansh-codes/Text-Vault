@@ -10,11 +10,11 @@
 
 ## 📍Table of Contents
 1. [Features](#Features)
-2. [Technology Stack](#TechnologyStack)
+2. [Technology Stack](#Technology-Stack)
 3. [Installation](#Installation)
-4. [Web Application](#WebApplication)
+4. [Web Application](#Web-Application)
 5. [Usage](#Usage)
-6. [Use Cases](#UseCases)
+6. [Use Cases](#Use-Cases)
 7. [Contributing](#Contributing)
 8. [License](#License)
 9. [Contact](#Contact)
