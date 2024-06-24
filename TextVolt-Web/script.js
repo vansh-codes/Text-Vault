@@ -1,8 +1,8 @@
-var checkbox = document.getElementById("check");
-var outputE = document.getElementById('outputE');
-var outputD = document.getElementById('outputD');
-var btn = document.getElementById('submitE');
-let dBtn = document.getElementById('submitD');
+const checkbox = document.getElementById("check");
+const outputE = document.getElementById('outputE');
+const outputD = document.getElementById('outputD');
+const btn = document.getElementById('submitE');
+const dBtn = document.getElementById('submitD');
 
 //for the loaded screen to check the initial state of the checkbox
 document.addEventListener("DOMContentLoaded", function() {
@@ -39,19 +39,19 @@ function executeBasicScript(){
     //BASIC ONE
     
     btn.addEventListener('click', function(){
-        let encrypted = '';
-        let string = document.getElementById('encrypt').value;
+        const encrypted = '';
+        const string = document.getElementById('encrypt').value;
         if(isEmpty(string)){
             return;
         }
-        let key = Math.floor(Math.random() * 9) + 1;
+        const key = Math.floor(Math.random() * 9) + 1;
         
         Array.from(string).forEach(i => {
             if(i==" "){
                 encrypted += " ";
             }
             else{
-                let shiftValue = Math.abs(i.charCodeAt(0) - key);
+                const shiftValue = Math.abs(i.charCodeAt(0) - key);
                 encrypted += String.fromCharCode(shiftValue);
             }
         });
@@ -61,26 +61,26 @@ function executeBasicScript(){
     
     
     dBtn.addEventListener('click', function(){
-        let decrypted = '';
-        let encryptedStr = document.getElementById('decrypt').value;
+        const decrypted = '';
+        const encryptedStr = document.getElementById('decrypt').value;
         if(isEmpty(encryptedStr)){
             return;
         }
-        let keyWas = encryptedStr[encryptedStr.length - 1].charCodeAt(0)-100;
-        let encryptedStrSliced = encryptedStr.slice(0,-1);
+        const keyWas = encryptedStr[encryptedStr.length - 1].charCodeAt(0)-100;
+        const encryptedStrSliced = encryptedStr.slice(0,-1);
         Array.from(encryptedStrSliced).forEach(i => {
             if(i==" "){
                 decrypted += " ";
             }
             else{
-                let unshiftValue = Math.abs(i.charCodeAt(0)+keyWas);
+                const unshiftValue = Math.abs(i.charCodeAt(0)+keyWas);
                 decrypted += String.fromCharCode(unshiftValue);
             }
         });
         outputD.textContent = encryptedStr + " decrypted into: " + decrypted;
     });
     seeCheckBox();    
-       
+
 }
 function executeAdvanceScript(){
     //Advanced one
@@ -92,17 +92,17 @@ function executeAdvanceScript(){
         var key;
         key = Math.floor(Math.random() * 9) + 1; 
         console.log('key: ' + key);
-        let encrypted = '';
+        const encrypted = '';
         
         Array.from(string).forEach((i, ind) => {
             if(i==" "){
                 encrypted += " ";
             }
             else{
-                let newKey = key+ind;
+                const newKey = key+ind;
                 console.log("newKey: " + newKey);
-                console.log("letters char code: " + i.charCodeAt(0));
-                let shiftValue = Math.abs(i.charCodeAt(0) - (newKey));
+                console.log("constters char code: " + i.charCodeAt(0));
+                const shiftValue = Math.abs(i.charCodeAt(0) - (newKey));
                 console.log("shiftValue: " + shiftValue + " its ascii: " + String.fromCharCode(shiftValue));
                 encrypted += String.fromCharCode(shiftValue);
             }
@@ -114,21 +114,21 @@ function executeAdvanceScript(){
     
     
     dBtn.addEventListener('click', function(){
-        let decrypted = '';
+        const decrypted = '';
         var encryptedStr = document.getElementById('decrypt').value;
         if(isEmpty(encryptedStr)){
             return;
         }
-        let keyWas = encryptedStr[encryptedStr.length - 1].charCodeAt(0)-100;
+        const keyWas = encryptedStr[encryptedStr.length - 1].charCodeAt(0)-100;
         
-        let encryptedStrSliced = encryptedStr.slice(0,-1);
+        const encryptedStrSliced = encryptedStr.slice(0,-1);
         Array.from(encryptedStrSliced).forEach((i,ind) => {
             if(i==" "){
                 decrypted += " ";
             }
             else{
-                let updatedKey = keyWas+ind;
-                let unshiftValue = Math.abs(i.charCodeAt(0)+updatedKey);
+                const updatedKey = keyWas+ind;
+                const unshiftValue = Math.abs(i.charCodeAt(0)+updatedKey);
                 decrypted += String.fromCharCode(unshiftValue);
             }
         });
