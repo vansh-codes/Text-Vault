@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Text Encrypter",
+    "name": "TexVault - Encrypt Text",
     "version": "1.0",
     "description": "A Chrome extension to encrypt and decrypt the text",
     "action": {

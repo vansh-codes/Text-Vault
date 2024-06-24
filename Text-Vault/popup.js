@@ -156,39 +156,3 @@ function executeAdvanceScript(){
     });
     seeCheckBox(); 
 }
-    
-    
-    /* let output = document.getElementById('output');
-    
-    let btn = document.getElementById('submitE');
-    
-    btn.addEventListener('click', function(){
-        let encrypted = '';
-        let string = document.getElementById('encrypt').value;
-    let key = Math.floor(Math.random() * 99) + 1;
-
-    Array.from(string).forEach(i => {
-        let shiftValue = Math.abs(i.charCodeAt(0) - (key+string.indexOf(i)));
-        console.log("shiftValue: " + shiftValue + " its ascii: " + String.fromCharCode(shiftValue));
-        encrypted += String.fromCharCode(shiftValue);
-    });
-    encrypted += String.fromCharCode(key);
-    output.textContent = encrypted;
-});
-
-
-let dBtn = document.getElementById('submitD');
-
-dBtn.addEventListener('click', function(){
-    let decrypted = '';
-    let encryptedStr = document.getElementById('decrypt').value;
-    let keyWas = encryptedStr[encryptedStr.length - 1].charCodeAt(0);
-
-    let encryptedStrSliced = encryptedStr.slice(0,-1);
-    // console.log('enStr: ' + encryptedStr);
-    Array.from(encryptedStrSliced).forEach(i => {
-        let unshiftValue = Math.abs(i.charCodeAt(0)+(keyWas-encryptedStrSliced.indexOf(i)));
-        decrypted += String.fromCharCode(unshiftValue);
-    });
-    output.textContent = decrypted;
-}); */
