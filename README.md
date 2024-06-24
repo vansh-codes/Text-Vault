@@ -2,9 +2,9 @@
 
 ![Text-Volt](https://socialify.git.ci/vansh-codes/Text-Volt/image?description=1&font=Rokkitt&name=1&owner=1&pattern=Floating%20Cogs&theme=Dark)
 <div align="center">
-<img src="https://forthebadge.com/images/badges/built-with-love.svg" height=40px/> <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fvansh-codes%2FText-Volt&label=visitors&countColor=%2337d67a&style=for-the-badge&labelStyle=upper" height=40px /> <img src="https://img.shields.io/github/last-commit/vansh-codes/Cosmic-Blast?style=for-the-badge" height=40px />
-<img src="https://img.shields.io/github/repo-size/vansh-codes/Text-Volt?style=for-the-badge" height=40px> 
-<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" height=30px /> <img src="https://vercelbadge.vercel.app/api/vansh-codes/TestForge?style=for-the-badge" height=30px />
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" height=40px/> <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fvansh-codes%2FText-Volt&label=visitors&countColor=%2337d67a&style=for-the-badge&labelStyle=upper" height=40px /> <img src="https://img.shields.io/github/last-commit/vansh-codes/Text-Volt?style=for-the-badge" height=40px />
+<img src="https://img.shields.io/github/repo-size/vansh-codes/Text-Volt?style=for-the-badge" height=40px> <br/>
+<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" height=30px /> <img src="https://vercelbadge.vercel.app/api/vansh-codes/Text-Volt?style=for-the-badge" height=30px />
 
 </div>
 
