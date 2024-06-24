@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Vault - Advanced Text Encrypter</title>
+    <meta name="description" content="Encrypt and decrypt text securely with Text Vault. Advanced encryption techniques ensure data protection.">
+    <meta name="keywords" content="Text Vault, text encrypter, encrypt text, decrypt text, advanced encryption, encrypt decrypt">
+    <meta name="vansh-codes" content="Vansh Chaurasiya">
+    <link rel="shortcut icon" href="icons/icon128.png" type="image/x-icon" alt="Text Vault Icon">
+    <link rel="stylesheet" href="popup.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>TextVault - Advanced Text Encrypter</h1>
+        </div>
+        <div class="items">
+            <input type="text" id="encrypt" placeholder="Enter text: " />
+            <button type="submit" id="submitE">Encrypt</button>
+        </div>
+        <input type="checkbox" id="check" title="Encrypts identical characters uniquely"> Advanced Encryption
+        <p id="outputE">Output here</p>
+        <div class="items">
+            <input type="text" id="decrypt" placeholder="Enter encrypted text: " />
+            <button type="submit" id="submitD">Decrypt</button>
+        </div>
+        <p id="outputD">Output here</p>
+        <p id="note">*Decryption is only possible for encrypted texts.<br>*Advanced encryption features ensure that identical letters are encrypted uniquely.</p>
+    </div>
+
+    <div class="footer">
+       Created by &copy;<a href="https://github.com/vansh-codes/" target="_blank" rel="noopener noreferrer">vansh-codes</a> 2024
+    </div>
+
+    <script src="popup.min.js"></script>
+</body>
+</html>
